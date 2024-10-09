@@ -587,6 +587,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# DPM
+PRODUCT_PACKAGES += \
+    libhidlbase_shim
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/nothing/Pong/Pong-vendor.mk)
 
