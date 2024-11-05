@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_Pong.mk
+    $(LOCAL_DIR)/voltage_Pong.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_Pong-user \
-    infinity_Pong-userdebug \
-    infinity_Pong-eng
+    voltage_Pong-user \
+    voltage_Pong-userdebug \
+    voltage_Pong-eng

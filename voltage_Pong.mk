@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Pong/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := infinity_Pong
+PRODUCT_NAME := voltage_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
 PRODUCT_BRAND := Nothing
@@ -23,17 +23,14 @@ PRODUCT_MODEL := A065
 PRODUCT_SYSTEM_NAME := Pong
 PRODUCT_SYSTEM_DEVICE := Pong
 
-# Maintainer Name
-INFINITY_MAINTAINER := GHOST
-
-# OFFICIAL Maintainer
-INFINITY_BUILD_TYPE := OFFICIAL
-
-# Gapps:
-WITH_GAPPS := true
-
 # UDFPS
 TARGET_HAS_UDFPS := true
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Boot animation resolution
+TARGET_BOOT_ANIMATION_RES := 2160
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
