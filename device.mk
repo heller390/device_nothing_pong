@@ -167,6 +167,10 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     Pong_DeviceExtras
 
+#DeviceasWebcam
+PRODUCT_PACKAGES += \
+    PongDeviceAsWebcam
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/displayconfig/display_id_4630946639017191810.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946639017191810.xml
