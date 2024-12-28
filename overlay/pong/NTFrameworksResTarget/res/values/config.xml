@@ -483,4 +483,7 @@
     <!-- Whether device supports in-display fingerprint -->
     <bool name="config_supportsUdfps">true</bool>
 
+    <!-- Enable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">false</bool>
+
 </resources>
