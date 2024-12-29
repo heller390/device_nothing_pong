@@ -361,9 +361,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
-    hardware/qcom-caf/common/libqti-perfd-client \
-    kernel/nothing/sm8475 \
-    kernel/nothing/sm8475-modules
+    hardware/qcom-caf/common/libqti-perfd-client 
 
 # Task Profiles
 PRODUCT_COPY_FILES += \
